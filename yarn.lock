@@ -17,9 +17,17 @@ __metadata:
   resolution: "krypton@workspace:."
   dependencies:
     "@types/node": ^18.11.9
+    tiny-typed-emitter: ^2.1.0
     typescript: ^4.8.4
   languageName: unknown
   linkType: soft
+
+"tiny-typed-emitter@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "tiny-typed-emitter@npm:2.1.0"
+  checksum: 709bca410054e08df4dc29d5ea0916328bb2900d60245c6a743068ea223887d9fd2c945b6070eb20336275a557a36c2808e5c87d2ed4b60633458632be4a3e10
+  languageName: node
+  linkType: hard
 
 "typescript@npm:^4.8.4":
   version: 4.8.4
