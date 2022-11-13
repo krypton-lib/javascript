@@ -1,0 +1,7 @@
+# node
+.yarn/
+
+node_modules
+
+# typescript
+dist/

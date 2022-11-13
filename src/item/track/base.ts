@@ -1,4 +1,4 @@
-import { Item } from "../base";
+import type { Item } from "../base";
 
 export interface Track extends Item {
     /** This track's identifier. */

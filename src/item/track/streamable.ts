@@ -1,5 +1,5 @@
 import type { Track } from "./base";
-import type { TrackStreams } from "./stream/steams";
+import type { TrackStreams } from "./stream/streams";
 
 export interface StreamableTrack extends Track {
     /**
