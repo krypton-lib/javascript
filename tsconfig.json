@@ -1,49 +1,46 @@
 {
     "compilerOptions": {
         /* Basic */
-        "lib": [
-            "ES2022"
-        ],
+        "lib": ["ESNext"],
         "target": "ES2022",
-        "module": "CommonJS",
-        "skipLibCheck": true,
 
-        /* Compiling */
-        "inlineSourceMap": false,
+        /* Modules */
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+
+        /* Emit */
         "declaration": true,
-        "allowJs": true,
-        "rootDir": "./src",
-        "outDir": "./dist",
+        "declarationMap": true,
+        "pretty": true,
+        "esModuleInterop": true,
+        "newLine": "lf",
+        "removeComments": true,
+        "inlineSourceMap": true,
+        "useDefineForClassFields": true,
+        "importHelpers": true,
 
         /* Strict Options */
         "strict": true,
-        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "alwaysStrict": true,
+        "allowSyntheticDefaultImports": true,
         "strictNullChecks": true,
         "strictBindCallApply": true,
         "strictPropertyInitialization": true,
-        "noImplicitThis": true,
-        "alwaysStrict": true,
+        "importsNotUsedAsValues": "error",
         "noFallthroughCasesInSwitch": true,
-        "pretty": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": false,
+        "noUnusedParameters": true,
+        "noEmitHelpers": false,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "sourceMap": true,
-        "importsNotUsedAsValues": "error",
+        "preserveConstEnums": true,
 
         /* Types */
-        "types": [
-            "node"
-        ],
-        "forceConsistentCasingInFileNames": true,
-
-        /* Module Resolution */
-        "resolveJsonModule": true,
-        "esModuleInterop": true
-    },
-    "include": [
-        "./src/**/*"
-    ],
-    "exclude": [
-        "./node_modules"
-    ]
+        "types": ["node"],
+        "forceConsistentCasingInFileNames": true
+    }
 }

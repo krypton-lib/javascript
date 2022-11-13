@@ -1,0 +1,9 @@
+{
+    "extends": "../../tsconfig.incremental.json",
+    "compilerOptions": {
+        "tsBuildInfoFile": "dist/.tsbuildinfo",
+        "outDir": "dist",
+        "module": "CommonJS"
+    },
+    "include": ["src/**/*.ts"]
+}

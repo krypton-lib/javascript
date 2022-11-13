@@ -1,7 +1,25 @@
-# node
-.yarn/
+# Ignore a blackhole and the folder for development
+node_modules/
+.vs/
+.idea/
+*.iml
 
-node_modules
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
 
-# typescript
-dist/
+# Environment variables
+.DS_Store
+
+# Ignoed Folders
+/.dev
+/dist
+
+# Ignore heapsnapshot and log files
+*.heapsnapshot
+*.log
+
+# Environment variables
+.env*
+!.env.example
+
